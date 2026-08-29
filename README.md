@@ -1,6 +1,6 @@
 # Tahir Ahmad — Personal Portfolio
 
-> Computer Systems Engineering Student | Aspiring Software Developer
+> Computer Engineering Student | Aspiring Software Developer
 
 Welcome to my personal portfolio repository.
 
@@ -14,7 +14,7 @@ This portfolio showcases my software development projects, technical skills, and
 
 ## 👨‍💻 About Me
 
-I'm a Computer Systems Engineering student with a strong interest in software development and problem solving.
+I'm a Computer Engineering student with a strong interest in software development and problem solving.
 
 My focus is on building practical applications while strengthening my understanding of:
 
@@ -194,7 +194,7 @@ A JavaScript-based age calculator using the Date object with input validation an
 https://tahirahmad88.github.io/tahir-ahmad-portfolio/
 
 **💼 LinkedIn:**  
-https://www.linkedin.com/in/tahir-ahmad-68b96b361
+https://www.linkedin.com/in/tahir-ahmad88
 
 **🐙 GitHub:**  
 https://github.com/TahirAhmad88
