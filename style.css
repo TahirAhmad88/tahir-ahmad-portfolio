@@ -156,8 +156,8 @@ section {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: rgba(245, 197, 66, 0.1);
-  border: 1px solid rgba(245, 197, 66, 0.3);
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.3);
   border-radius: 50px;
   padding: 6px 14px;
   font-size: 0.78rem;
@@ -374,13 +374,14 @@ section {
   gap: 8px;
 }
 .tag {
-  background: rgba(245, 197, 66, 0.08);
-  border: 1px solid rgba(245, 197, 66, 0.18);
+  /* Change yellow tint to blue tint */
+  background: rgba(56, 189, 248, 0.08); 
+  border: 1px solid rgba(56, 189, 248, 0.2);
   border-radius: 6px;
   padding: 4px 10px;
   font-size: 0.78rem;
   font-family: "JetBrains Mono", monospace;
-  color: #fde68a;
+  color: var(--accent3); /* Light cyan text */
 }
 
 /* ── PROJECTS ── */
