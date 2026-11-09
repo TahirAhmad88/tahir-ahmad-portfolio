@@ -41,8 +41,8 @@ body::before {
   position: fixed;
   inset: 0;
   background-image:
-    linear-gradient(rgba(245, 197, 66, 0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(245, 197, 66, 0.04) 1px, transparent 1px);
+    linear-gradient(rgba(56, 189, 248, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(56, 189, 248, 0.05) 1px, transparent 1px);
   background-size: 40px 40px;
   pointer-events: none;
   z-index: 0;
@@ -60,14 +60,14 @@ body::before {
 .orb1 {
   width: 500px;
   height: 500px;
-  background: rgba(245, 197, 66, 0.07);
+  background: rgba(56, 189, 248, 0.08); /* Electric Blue Glow */
   top: -150px;
   right: -150px;
 }
 .orb2 {
   width: 400px;
   height: 400px;
-  background: rgba(14, 58, 120, 0.35);
+  background: rgba(14, 58, 120, 0.4); 
   bottom: 10%;
   left: -100px;
   animation-delay: -4s;
@@ -240,7 +240,8 @@ section {
   background: var(--accent3);
   color: #020b18;
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(245, 197, 66, 0.3);
+  /* Changed shadow from yellow to blue */
+  box-shadow: 0 8px 24px rgba(56, 189, 248, 0.3); 
 }
 .btn-ghost {
   background: transparent;
@@ -803,8 +804,8 @@ footer {
   inset: -3px;
   border-radius: 50%;
   background: conic-gradient(
-    var(--accent),
-    var(--accent3),
+    var(--accent),       /* Electric Blue */
+    var(--accent3),      /* Light Cyan */
     transparent,
     var(--accent)
   );
