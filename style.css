@@ -1,25 +1,21 @@
-:root {
-  --bg: #020b18;
-  --surface: #071428;
-  --surface2: #0d1f3c;
-  --border: rgba(251, 191, 36, 0.13);
-  --accent: #f5c542;
-  --accent2: #e6a817;
-  --accent3: #fde68a;
-  --text: #bfdbfe;
-  --muted: #6b8fbf;
-  --white: #f0f8ff;
-  --green: #34d399;
-  --gold: #f5c542;
+: root {
+  /* Backgrounds - Deep Tech Navy */
+  --bg: #030a16; 
+  --surface: #0a1428;
+  --surface2: #112240;
+  
+  /* Borders & Accents - Electric Blue / Cyan */
+  --border: rgba(56, 189, 248, 0.15);
+  --accent: #38bdf8;       /* Cyan/Electric Blue (Replaces the old Yellow) */
+  --accent2: #0ea5e9;      /* Slightly darker blue */
+  --accent3: #7dd3fc;      /* Light cyan for hover states */
+  
+  /* Text Colors */
+  --text: #cbd5e1;
+  --muted: #64748b;
+  --white: #f8fafc;
+  --green: #10b981;        /* Kept for the "Open to Internships" dot */
 }
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 /* Prevent horizontal scrolling globally */
 * {
   margin: 0;
